@@ -750,49 +750,11 @@ details a {
   margin-bottom: 50px;
 }
 
-/* Contact Cards */
-.contact-box {
-  display: flex;
-  justify-content: center;
-  gap: 35px;
-  flex-wrap: wrap;
-}
-
-.contact-card {
-  width: 200px;
-  padding: 25px;
-  border-radius: 20px;
-
-  background: rgba(0, 0, 0, 0.45);
-  border: 2px solid rgba(0, 200, 255, 0.25);
-
-  text-decoration: none;
-  color: white;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-
-  font-size: 1.05rem;
-  font-weight: bold;
-
-  transition: 0.35s ease;
-}
-
-.contact-card i {
+.contact-email {
   font-size: 2rem;
-  color: var(--nebula1);
-}
-
-.contact-card:hover {
-  transform: translateY(-10px) scale(1.05);
-
-  border: 2px solid rgba(255, 0, 255, 0.35);
-
-  box-shadow:
-    0 0 25px rgba(0, 200, 255, 0.25),
-    0 0 60px rgba(255, 0, 255, 0.18);
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
 }
 
 
