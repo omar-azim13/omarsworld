@@ -2,298 +2,928 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="apple-touch-icon" href="favicon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <title>Omar's World</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OmarsWorld</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400;1,600&family=DM+Mono:wght@300;400;500&family=Nunito+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body>
 
-  <div class="menu-container">
-    <button id="menuToggle">Menu ▼</button>
-
-    <div class="menu-dropdown" id="menuDropdown">
-      <a href="#skills">SKILLS</a>
-      <a href="#projects">PROJECTS</a>
-      <a href="#about">Q&A</a>
-      <a href="#gallery">ART</a>
-    </div>
-  </div>
-
-  <div class="Header-1">
-    <img src="" alt="">
-    <h1>THE WORLD OF OMAR</h1>
-  </div>
-
-  <div class="skills reveal pop" id="skills">
-    <div class="topic">
-      <h2>SKILLS</h2>
-    </div>
-
-    <div class="skills-content">
-      <div class="listing">
-        <ul>
-          <li>Game Development</li>
-          <li>Web Developing</li>
-          <li>Footballer</li>
-          <li>Art/Sketching</li>
-        </ul>
-      </div>
-
-      <div class="profile">
-        <img src="Picture.png" alt="Omar">
-      </div>
-    </div>
-  </div>
-
-  <div class="projects reveal" id="projects">
-    <div class="topic-2">
-      <h2>MY PROJECTS</h2>
-    </div>
-
-    <div class="projects-grid">
-
-      <div class="project-card">
-        <img src="First Person Shooter.png" alt="Image Could Not Load">
-
-        <a href="FPS GAME.HTML">
-          <button>FPS ROBLOX GAME</button>
-        </a>
-      </div>
-
-      <div class="project-card">
-        <img src="Blue Lock.png" alt="Image Could Not Load">
-
-        <a href="BLUE LOCK GAME.HTML">
-          <button>Blue Lock Project</button>
-        </a>
-      </div>
-
-      <div class="project-card">
-        <img src="COMING SOON Banner.png" alt="Image Could Not Load">
-
-        <a href="ComingSoon.HTML">
-          <button>Coming Soon!</button>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- =============================== -->
-  <!--        ABOUT ME (Q&A) SECTION   -->
-  <!-- =============================== -->
-
-  <section class="qa-section reveal" id="about">
-
-    <!-- Section Title -->
-    <h2 class="qa-title">About Me (Q&A)</h2>
-
-
-    <!-- =============================== -->
-    <!-- Question 1 -->
-    <!-- =============================== -->
-    <div class="qa-item">
-
-      <!-- Clickable Question Button -->
-      <button class="qa-question">
-        Q: Who even are you?
-        <span class="arrow">▼</span>
-      </button>
-
-      <!-- Answer Box -->
-      <div class="qa-answer">
-        <p>A: Yo I’m Omar, game dev, football addict, and professional “I’ll fix it later” coder.
-          I build Roblox games, websites, and random ideas at 2AM for no reason.</p>
-      </div>
-
-    </div>
-
-
-    <!-- =============================== -->
-    <!-- Question 2 -->
-    <!-- =============================== -->
-    <div class="qa-item">
-
-      <button class="qa-question">
-        Q: What are you working on right now?
-        <span class="arrow">▼</span>
-      </button>
-
-      <div class="qa-answer">
-        <p>A: Currently cooking up Roblox projects like an FPS game and working on test projects
-          Basically: chaos, rage, and alot of unfinished games 💀</p>
-      </div>
-
-    </div>
-
-
-    <!-- =============================== -->
-    <!-- Question 3 -->
-    <!-- =============================== -->
-    <div class="qa-item">
-
-      <button class="qa-question">
-        Q: Why Roblox Studio?
-        <span class="arrow">▼</span>
-      </button>
-
-      <div class="qa-answer">
-        <p>A: Because it’s like game development with training wheels…
-          but the moment you touch scripting, the wheels fall off and you’re flying into the void.</p>
-      </div>
-
-    </div>
-
-
-    <!-- =============================== -->
-    <!-- EMPTY SLOT #1 (Fill Later) -->
-    <!-- =============================== -->
-    <div class="qa-item">
-
-      <button class="qa-question">
-        Q: What’s your dream project?
-        <span class="arrow">▼</span>
-      </button>
-
-      <div class="qa-answer">
-        <p>A: Just a smooth and clean game without having to fight bugs</p>
-      </div>
-
-    </div>
-
-
-    <!-- =============================== -->
-    <!-- EMPTY SLOT #2 (Fill Later) -->
-    <!-- =============================== -->
-    <div class="qa-item">
-
-      <button class="qa-question">
-        Q: What other things do you outside of coding?
-        <span class="arrow">▼</span>
-      </button>
-
-      <div class="qa-answer">
-        <p>A: I play football and sometimes I draw stuff..only when my code is broken beyond saving.</p>
-      </div>
-
-    </div>
-
-
-    <!-- =============================== -->
-    <!-- EMPTY SLOT #3 (Fill Later) -->
-    <!-- =============================== -->
-    <div class="qa-item">
-
-      <button class="qa-question">
-        Q: Any message to the people?
-        <span class="arrow">▼</span>
-      </button>
-
-      <div class="qa-answer">
-        <p>A: Respect your last name, never give up and chase your dreams.</p>
-      </div>
-
-    </div>
-
-
-    <!-- =============================== -->
-    <!-- EMPTY SLOT #4 (Fill Later) -->
-    <!-- =============================== -->
-    <div class="qa-item">
-
-      <button class="qa-question">
-        Q: How many times have you ragequit coding?
-        <span class="arrow">▼</span>
-      </button>
-
-      <div class="qa-answer">
-        <p>A: Yes.</p>
-      </div>
-
-    </div>
-
-    <!-- =============================== -->
-    <!-- EMPTY SLOT #5 (Fill Later) -->
-    <!-- =============================== -->
-    <div class="qa-item">
-
-      <button class="qa-question">
-        Q: Why does your site look so cenimatic?
-        <span class="arrow">▼</span>
-      </button>
-
-      <div class="qa-answer">
-        <p>A: I was supposed to be studying… but VS Code mysteriously opened and the story changed</p>
-      </div>
-
-    </div>
-
-  </section>
-
-  <div class="gallery reveal" id="gallery">
-    <div class="topic-2">
-      <h2>ARTISTIC WORK</h2>
-    </div>
-
-    <div class="art-grid">
-
-      <div class="art-card">
-        <img src="https://via.placeholder.com/250" alt="Coming Soon!">
-        <h3>Concept Sketch #1</h3>
-      </div>
-
-      <div class="art-card">
-        <img src="https://via.placeholder.com/250" alt="Coming Soon!">
-        <h3>Character Design</h3>
-      </div>
-
-      <div class="art-card">
-        <img src="https://via.placeholder.com/250" alt="Coming Soon!">
-        <h3>Digital Practice</h3>
-      </div>
-
-    </div>
-  </div>
-
-
-  <!-- =============================== -->
-  <!--        CONTACT SECTION          -->
-  <!-- =============================== -->
-
-  <section class="contact-section" id="contact">
-
-    <h2 class="contact-title">Contact Me :3</h2>
-
-    <p class="contact-text">
-      Wanna connect, collab, or just say hi?
-      Hit me up, I'm always ready
-    </p>
-
-    <div class="contact-box">
-
-      <!-- Email -->
-      <h2 class="email-text">omarazim754@gmail.com</h2>
-
-    </div>
-
-  </section>
-
-
-  <!-- =============================== -->
-  <!--        FOOTER SECTION          -->
-  <!-- =============================== -->
-  <footer class="main-footer">
-    <p>© Omar Azim 2026 | All Rights Reserved</p>
-    <div class="socials">
-      <a href="https://instagram.com/omxr.dev_" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
+  <!-- ░░ CURSOR ░░ -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- ░░ OVERLAYS ░░ -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- ░░ SCROLL PROGRESS ░░ -->
+  <div class="progress-bar" id="progress-bar"></div>
+
+  <!-- ═══════════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav-wrap">
+      <a href="#home" class="nav-logo">
+        <span class="logo-gem">◈</span><span>OW</span>
       </a>
+      <ul class="nav-list" id="nav-list" role="list">
+        <li><a href="#work" class="nav-a">Work</a></li>
+        <li><a href="#skills" class="nav-a">Skills</a></li>
+        <li><a href="#about" class="nav-a">About</a></li>
+        <li><a href="#process" class="nav-a">Process</a></li>
+        <li><a href="#connect" class="nav-a">Connect</a></li>
+      </ul>
+      <button class="nav-burger" id="nav-burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO — cinematic full-screen
+  ═══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-a" data-depth="0.04"></div>
+      <div class="blob blob-b" data-depth="0.025"></div>
+      <div class="blob blob-c" data-depth="0.035"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-hline hero-hline-t"></div>
+      <div class="hero-hline hero-hline-b"></div>
+    </div>
+
+    <!-- Vertical side labels -->
+    <aside class="hero-side hero-side-l" aria-hidden="true">
+      <span>Developer · Creator · Builder</span>
+    </aside>
+
+    <div class="hero-content">
+      <div class="hero-chip cin" style="--d:.2s">
+        <span class="chip-dot"></span>
+        Available for projects
+      </div>
+
+      <h1 class="hero-title">
+        <span class="ht-line cin" style="--d:.4s">Omar's</span>
+        <span class="ht-rule cin" aria-hidden="true" style="--d:.62s">
+          <span class="ht-rule-line"></span>
+        </span>
+        <span class="ht-line ht-em cin" style="--d:.52s"><em>World</em></span>
+      </h1>
+
+      <p class="hero-sub cin" style="--d:.84s">
+        Building games, websites and experiences<br />that people actually remember.
+      </p>
+
+      <div class="hero-cta cin" style="--d:1.04s">
+        <a href="#work" class="btn btn-solid mag" data-mag>
+          <span>See the work</span>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M7 17L17 7M17 7H7M17 7v10" />
+          </svg>
+        </a>
+        <a href="#connect" class="btn btn-ghost mag" data-mag>Let's talk</a>
+      </div>
+    </div>
+
+    <aside class="hero-side hero-side-r" aria-hidden="true">
+      <span>2025</span>
+    </aside>
+
+    <!-- Scroll cue -->
+    <div class="hero-scroll cin" style="--d:1.4s" aria-hidden="true">
+      <div class="hs-track">
+        <div class="hs-fill"></div>
+      </div>
+      <span class="label-xs">SCROLL</span>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       MARQUEE
+  ═══════════════════════════════════════════ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-inner">
+      <span>Roblox Studio</span><span class="msep">◈</span>
+      <span>HTML</span><span class="msep">◈</span>
+      <span>CSS</span><span class="msep">◈</span>
+      <span>JavaScript</span><span class="msep">◈</span>
+      <span>Game Design</span><span class="msep">◈</span>
+      <span>Lua Scripting</span><span class="msep">◈</span>
+      <span>Web Dev</span><span class="msep">◈</span>
+      <span>UI Design</span><span class="msep">◈</span>
+      <span>Roblox Studio</span><span class="msep">◈</span>
+      <span>HTML</span><span class="msep">◈</span>
+      <span>CSS</span><span class="msep">◈</span>
+      <span>JavaScript</span><span class="msep">◈</span>
+      <span>Game Design</span><span class="msep">◈</span>
+      <span>Lua Scripting</span><span class="msep">◈</span>
+      <span>Web Dev</span><span class="msep">◈</span>
+      <span>UI Design</span><span class="msep">◈</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       NUMBERS — full-width cinematic stats band
+  ═══════════════════════════════════════════ -->
+  <section class="numbers" id="numbers" aria-label="Stats">
+    <div class="container">
+      <div class="numbers-grid">
+
+        <div class="num-item sr-up" style="--ri:0">
+          <div class="num-val" data-count="6">0</div>
+          <div class="num-plus">+</div>
+          <p class="num-label">Projects shipped</p>
+        </div>
+
+        <div class="num-divider" aria-hidden="true"></div>
+
+        <div class="num-item sr-up" style="--ri:1">
+          <div class="num-val" data-count="2">0</div>
+          <div class="num-plus"></div>
+          <p class="num-label">Platforms built for</p>
+        </div>
+
+        <div class="num-divider" aria-hidden="true"></div>
+
+        <div class="num-item sr-up" style="--ri:2">
+          <div class="num-val" data-count="4">0</div>
+          <div class="num-plus">+</div>
+          <p class="num-label">Years building</p>
+        </div>
+
+        <div class="num-divider" aria-hidden="true"></div>
+
+        <div class="num-item sr-up" style="--ri:3">
+          <div class="num-val" data-count="100">0</div>
+          <div class="num-plus">%</div>
+          <p class="num-label">Built from scratch</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       WORK
+  ═══════════════════════════════════════════ -->
+  <section class="section" id="work">
+    <div class="sec-rule" aria-hidden="true"></div>
+    <div class="container">
+
+      <header class="sec-head">
+        <span class="sec-tag sr-fade">01 / Work</span>
+        <h2 class="sec-title sr-up">Selected<br /><em>Projects</em></h2>
+      </header>
+
+      <!-- Featured -->
+      <div class="sr-up" style="--ri:0">
+        <article class="feat-card tilt" data-tilt>
+          <div class="feat-glow"></div>
+          <div class="feat-body">
+            <div class="feat-meta">
+              <span class="tag tag-game">Web</span>
+              <span class="label-xs">FEATURED</span>
+            </div>
+            <h3 class="feat-title">UNBORED - The Cure To Bordem</h3>
+            <p class="feat-desc">A smart activity generator designed to help you beat boredom with purpose.
+              Pick your mood, energy level, and interests to get personalized suggestions
+              that actually help, whether it's coding, gaming, or improving yourself.</p>
+            <ul class="feat-list">
+              <li>Personalized activity suggestions based on mood and energy </li>
+              <li>Category system (Gaming, Coding, Sports, Productive, Chill) </li>
+              <li>Streak system to track consistency and progress</li>
+              <li>Clean, modern UI with smooth interactions</li>
+            </ul>
+            <div class="feat-stack">
+              <span>HTML & CSS</span><span>JavaScript</span><span>UI/UX</span><span>Web App</span>
+            </div>
+          </div>
+          <div class="feat-aside">
+            <div class="feat-emblem">
+              <span class="feat-emoji">⚡</span>
+              <span class="label-xs">Bored? Try This!</span>
+            </div>
+            <a href="https://unbored-curetoboredom.netlify.app" class="btn btn-solid mag" data-mag>
+              <span>LAUNCH</span>
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon points="5 3 19 12 5 21 5 3" />
+              </svg>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Grid -->
+      <div class="proj-grid">
+
+        <article class="proj-card tilt sr-up" data-tilt style="--ri:1">
+          <div class="proj-card-glow"></div>
+          <div class="pc-head">
+            <span class="tag tag-game">Game</span>
+            <span class="pc-emoji">♟️</span>
+          </div>
+          <h3 class="pc-title">Chess</h3>
+          <p class="pc-desc">A classic chess experience built for the browser with clean visuals and smooth
+            interactions.
+            Play against a basic AI while exploring core game logic, move validation, and strategic gameplay.</p>
+          <div class="pc-foot">
+            <div class="pc-stack"><span>JavaScript</span><span>AI</span><span>Game Logic</span></div>
+            <a href="https://omarschess.netlify.app" class="arr-link mag" data-mag>Play →</a>
+          </div>
+        </article>
+
+        <article class="proj-card tilt sr-up" data-tilt style="--ri:2">
+          <div class="proj-card-glow"></div>
+          <div class="pc-head">
+            <span class="tag tag-web">Web</span>
+            <span class="pc-emoji">😋</span>
+          </div>
+          <h3 class="pc-title">Food Recipe</h3>
+          <p class="pc-desc">A clean and user-friendly recipe website designed to help users discover and follow meals
+            بسهولة.
+            Browse recipes, view ingredients, and follow step-by-step instructions in a simple and organized layout.</p>
+          <div class="pc-foot">
+            <div class="pc-stack"><span>HTML</span><span>CSS</span><span>JS</span><span>Web App</span></div>
+            <a href="https://omarsflavourhub.netlify.app" class="arr-link mag" data-mag>View →</a>
+          </div>
+        </article>
+
+        <article class="proj-card tilt sr-up" data-tilt style="--ri:3">
+          <div class="proj-card-glow"></div>
+          <div class="pc-head">
+            <span class="tag tag-web">Web</span>
+            <span class="pc-emoji">💬</span>
+          </div>
+          <h3 class="pc-title">Discord Clone</h3>
+          <p class="pc-desc">A modern chat interface inspired by Discord, designed to showcase structured layouts and UI
+            systems.
+            Features message panels and a responsive design that mirrors real-world applications.
+          </p>
+          <div class="pc-foot">
+            <div class="pc-stack"><span>HTML & CSS</span><span>UI/UX</span><span>Frontend</span><span>Layout</span>
+            </div>
+
+            <a href="https://chord-discordclone.netlify.app" class="arr-link mag" data-mag>View →</a>
+          </div>
+        </article>
+
+        <article class="proj-card proj-card-wip tilt sr-up" data-tilt style="--ri:4">
+          <div class="proj-card-glow"></div>
+          <div class="pc-head">
+            <span class="tag tag-wip">Game</span>
+            <span class="pc-emoji">⚡</span>
+          </div>
+          <h3 class="pc-title">Neon Runner</h3>
+          <p class="pc-desc">A fast-paced 2D platformer built around precision, timing, and smooth movement. Designed
+            with a clean neon style and focused mechanics to create a simple but addictive experience.
+          </p>
+          <div class="pc-foot">
+            <div class="pc-stack"><span>JavaScript</span><span>Game Dev</span><span>Platformer</span><span>UI/UX</span>
+            </div>
+            <a href="https://neonplatformer.netlify.app" target="_blank" rel="noopener" class="arr-link mag"
+              data-mag>View →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       INTERLUDE — full-bleed cinematic quote
+  ═══════════════════════════════════════════ -->
+  <div class="interlude" aria-hidden="false">
+    <div class="interlude-bg">
+      <div class="ibl ibl-a"></div>
+      <div class="ibl ibl-b"></div>
+    </div>
+    <div class="container">
+      <blockquote class="interlude-quote sr-up" style="--ri:0">
+        <span class="iq-mark">"</span>
+        <p>My mindset is built on growth, not just wealth,
+          because success without discipline means nothing.
+          I work with purpose, guided by faith,
+          building my dunya while never forgetting my akhirah.</p>
+        <cite>- Omar Azim</cite>
+      </blockquote>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════════ -->
+  <section class="section" id="skills">
+    <div class="sec-rule" aria-hidden="true"></div>
+    <div class="container">
+
+      <header class="sec-head">
+        <span class="sec-tag sr-fade">02 / Skills</span>
+        <h2 class="sec-title sr-up">Where I<br /><em>Stand</em></h2>
+        <p class="sec-sub sr-up" style="--ri:1">An honest picture of my abilities — no fluff, no inflation.</p>
+      </header>
+
+      <div class="skills-wrap">
+
+        <!-- Bars column -->
+        <div class="skills-col">
+
+          <div class="sk-row sr-up" style="--ri:0">
+            <div class="sk-head">
+              <div class="sk-id">
+                <span class="sk-icon sk-icon-html">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                  </svg>
+                </span>
+                <span class="sk-name">HTML</span>
+              </div>
+              <span class="sk-badge badge-strong">Strong grasp</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-fill fill-orange" data-pct="82"></div>
+            </div>
+            <p class="sk-desc">Confident with structure, semantics and accessibility patterns. My most fluent language.
+            </p>
+          </div>
+
+          <div class="sk-row sr-up" style="--ri:1">
+            <div class="sk-head">
+              <div class="sk-id">
+                <span class="sk-icon sk-icon-css">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                  </svg>
+                </span>
+                <span class="sk-name">CSS</span>
+              </div>
+              <span class="sk-badge badge-improving">Improving</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-fill fill-blue" data-pct="65"></div>
+            </div>
+            <p class="sk-desc">Comfortable with layout, animations and responsive design. Still refining advanced
+              techniques.</p>
+          </div>
+
+          <div class="sk-row sr-up" style="--ri:2">
+            <div class="sk-head">
+              <div class="sk-id">
+                <span class="sk-icon sk-icon-js">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                  </svg>
+                </span>
+                <span class="sk-name">JavaScript</span>
+              </div>
+              <span class="sk-badge badge-learning">Still learning</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-fill fill-gold" data-pct="38"></div>
+            </div>
+            <p class="sk-desc">Learning the fundamentals — DOM, events, logic. Growing fast by building real things.</p>
+          </div>
+
+          <div class="sk-row sr-up" style="--ri:3">
+            <div class="sk-head">
+              <div class="sk-id">
+                <span class="sk-icon sk-icon-game">🎮</span>
+                <span class="sk-name">Roblox Studio</span>
+              </div>
+              <span class="sk-badge badge-strong">Strong</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-fill fill-warm" data-pct="80"></div>
+            </div>
+            <p class="sk-desc">My strongest environment. Build, design and ship full game experiences with confidence.
+            </p>
+          </div>
+
+          <div class="sk-row sr-up" style="--ri:4">
+            <div class="sk-head">
+              <div class="sk-id">
+                <span class="sk-icon sk-icon-game">🔷</span>
+                <span class="sk-name">Lua</span>
+              </div>
+              <span class="sk-badge badge-learning">Still learning</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-fill fill-gold" data-pct="48"></div>
+            </div>
+            <p class="sk-desc">Writing game mechanics, UI and systems in Roblox. Improving with every project.</p>
+          </div>
+
+          <div class="sk-row sr-up" style="--ri:5">
+            <div class="sk-head">
+              <div class="sk-id">
+                <span class="sk-icon sk-icon-game">🕹️</span>
+                <span class="sk-name">Game Design</span>
+              </div>
+              <span class="sk-badge badge-strong">Strong</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-fill fill-warm" data-pct="75"></div>
+            </div>
+            <p class="sk-desc">Instinct for pacing, feedback and player experience. Built across multiple game types.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Aside column -->
+        <div class="skills-aside">
+
+          <div class="aside-card sr-up" style="--ri:2">
+            <p class="aside-label label-xs">LEVEL KEY</p>
+            <div class="legend">
+              <div class="legend-row">
+                <span class="sk-badge badge-strong">Strong</span>
+                <span>Confident and capable</span>
+              </div>
+              <div class="legend-row">
+                <span class="sk-badge badge-improving">Improving</span>
+                <span>Solid but still growing</span>
+              </div>
+              <div class="legend-row">
+                <span class="sk-badge badge-learning">Still learning</span>
+                <span>Active student — building through it</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="aside-card sr-up" style="--ri:3">
+            <p class="aside-label label-xs">ALSO USE</p>
+            <div class="tool-tags">
+              <span>VS Code</span>
+              <span>Git</span>
+              <span>Figma basics</span>
+              <span>Flexbox</span>
+              <span>CSS Grid</span>
+              <span>DOM API</span>
+              <span>Responsive design</span>
+            </div>
+          </div>
+
+          <div class="aside-card aside-card-focus sr-up" style="--ri:4">
+            <span class="focus-dot"></span>
+            <div>
+              <strong>Current focus</strong>
+              <p>Deepening CSS & JavaScript to focus on advanced web builds.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CURRENTLY BUILDING — live progress
+  ═══════════════════════════════════════════ -->
+  <section class="building-section" id="building">
+    <div class="sec-rule" aria-hidden="true"></div>
+    <div class="container">
+      <div class="building-wrap">
+
+        <div class="building-left sr-up" style="--ri:0">
+          <span class="sec-tag">Now Building</span>
+          <h2 class="building-title"><em>Islamic Website</em></h2>
+          <p class="building-desc">A modern Islamic platform focused on daily reminders, duas, and meaningful content.
+            Designed to provide a calm, clean experience that helps users stay connected to their faith in a simple and
+            accessible way.</p>
+          <div class="building-tags">
+            <span class="tag tag-game">HTML & CSS</span>
+            <span class="tag tag-game">UI/UX</span>
+            <span class="tag tag-game">Web App</span>
+          </div>
+        </div>
+
+        <div class="building-right sr-up" style="--ri:1">
+          <p class="aside-label label-xs" style="margin-bottom:20px">BUILD PROGRESS</p>
+
+          <div class="build-track-row">
+            <span class="btr-label">Planning & Ideas</span>
+            <div class="btr-bar">
+              <div class="btr-fill" data-pct="60"></div>
+            </div>
+            <span class="btr-pct">60%</span>
+          </div>
+          <div class="build-track-row">
+            <span class="btr-label">Design Direction</span>
+            <div class="btr-bar">
+              <div class="btr-fill" data-pct="40"></div>
+            </div>
+            <span class="btr-pct">40%</span>
+          </div>
+          <div class="build-track-row">
+            <span class="btr-label">Core Structure</span>
+            <div class="btr-bar">
+              <div class="btr-fill" data-pct="10"></div>
+            </div>
+            <span class="btr-pct">10%</span>
+          </div>
+          <div class="build-track-row">
+            <span class="btr-label">Content</span>
+            <div class="btr-bar">
+              <div class="btr-fill" data-pct="0"></div>
+            </div>
+            <span class="btr-pct">0%</span>
+          </div>
+
+          <div class="building-eta">
+            <span class="focus-dot"></span>
+            <span>Starting from zero — building with purpose</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════ -->
+  <section class="section" id="about">
+    <div class="sec-rule" aria-hidden="true"></div>
+    <div class="container">
+
+      <header class="sec-head">
+        <span class="sec-tag sr-fade">03 / About</span>
+        <h2 class="sec-title sr-up">The <em>Person</em></h2>
+      </header>
+
+      <div class="about-grid">
+
+        <aside class="profile-card tilt sr-up" data-tilt style="--ri:0">
+          <div class="pc-glow-line"></div>
+          <div class="pc-body">
+            <div class="pc-avatar-wrap">
+              <div class="pc-ring"></div>
+              <div class="pc-avatar">
+                <img src="omar-profile.png" alt="Omar" class="pc-avatar-img" />
+              </div>
+            </div>
+            <div class="pc-status">
+              <span class="pc-status-dot"></span>Available
+            </div>
+            <h3 class="pc-name">Omar</h3>
+            <p class="pc-role">Developer · Creator · Builder</p>
+            <div class="pc-divider"></div>
+            <div class="pc-chips">
+              <span>🎮 Games</span>
+              <span>💻 Web</span>
+              <span>🚀 Ambitious</span>
+            </div>
+          </div>
+        </aside>
+
+        <div class="about-blocks">
+          <div class="ab-row sr-up" style="--ri:1">
+            <span class="ab-num">I</span>
+            <div>
+              <h4>Who I am</h4>
+              <p>A young developer who started in Roblox Studio and got fully into building things. HTML is my strongest
+                skill right now, I am improving in CSS, and learning JavaScript and Lua by building real projects
+                instead of just watching tutorials.</p>
+            </div>
+          </div>
+          <div class="ab-row sr-up" style="--ri:2">
+            <span class="ab-num">II</span>
+            <div>
+              <h4>How I build</h4>
+              <p>I focus on actually building things instead of overthinking. Most of my time has gone into Roblox
+                Studio and game design, and on the web side I am working on fundamentals, improving step by step, and
+                learning through real projects.</p>
+            </div>
+          </div>
+          <div class="ab-row sr-up" style="--ri:3">
+            <span class="ab-num">III</span>
+            <div>
+              <h4>Where I'm headed</h4>
+              <p>Right now I am focused on improving my skills, getting better at JavaScript, and building projects that
+                are cleaner and more complete. The goal is to create things that people actually use and remember.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PROCESS
+  ═══════════════════════════════════════════ -->
+  <section class="section" id="process">
+    <div class="sec-rule" aria-hidden="true"></div>
+    <div class="container">
+
+      <header class="sec-head">
+        <span class="sec-tag sr-fade">04 / Process</span>
+        <h2 class="sec-title sr-up">How I<br /><em>Work</em></h2>
+        <p class="sec-sub sr-up" style="--ri:1">Every project follows the same four acts.</p>
+      </header>
+
+      <div class="process-grid">
+
+        <div class="process-step sr-up" style="--ri:0">
+          <div class="pstep-num">01</div>
+          <h4 class="pstep-name">Imagine</h4>
+          <p class="pstep-desc">Every project starts with a clear vision. What should it feel like? What problem does it
+            solve? I sketch until the idea becomes undeniable.</p>
+        </div>
+
+        <div class="process-step sr-up" style="--ri:1">
+          <div class="pstep-num">02</div>
+          <h4 class="pstep-name">Structure</h4>
+          <p class="pstep-desc">Before writing code, I plan layout, architecture and flow. Good structure makes the
+            build faster and the result cleaner.</p>
+        </div>
+
+        <div class="process-step sr-up" style="--ri:2">
+          <div class="pstep-num">03</div>
+          <h4 class="pstep-name">Build</h4>
+          <p class="pstep-desc">I write code, hit walls, find ways through and keep going. The actual build is where
+            most of the real learning happens.</p>
+        </div>
+
+        <div class="process-step sr-up" style="--ri:3">
+          <div class="pstep-num">04</div>
+          <h4 class="pstep-name">Refine</h4>
+          <p class="pstep-desc">Polish turns good work into great work. I iterate on details until every interaction
+            earns its place.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       Q&A
+  ═══════════════════════════════════════════ -->
+  <section class="section" id="qa">
+    <div class="sec-rule" aria-hidden="true"></div>
+    <div class="container">
+
+      <header class="sec-head sec-head-center">
+        <span class="sec-tag sr-fade">05 / Q&amp;A</span>
+        <h2 class="sec-title sr-up">Things<br /><em>People Ask</em></h2>
+      </header>
+
+      <div class="qa-wrap sr-up" style="--ri:0">
+
+        <div class="qa-item">
+          <button class="qa-btn" aria-expanded="false">
+            <span class="qa-num">01</span>
+            <span class="qa-q">Who exactly are you?</span>
+            <span class="qa-icon">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </span>
+          </button>
+          <div class="qa-panel">
+            <p>Yo I’m Omar, game dev, football addict, and professional “I’ll fix it later” coder. I build Roblox games,
+              websites, and random ideas at 2AM for no reason.</p>
+          </div>
+        </div>
+
+        <div class="qa-item">
+          <button class="qa-btn" aria-expanded="false">
+            <span class="qa-num">02</span>
+            <span class="qa-q">What do you actually build?</span>
+            <span class="qa-icon">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </span>
+          </button>
+          <div class="qa-panel">
+            <p>Mostly web projects and Roblox games. I like building things that people can actually use or interact
+              with, not just random stuff that looks cool. Right now it’s a mix of UI-heavy websites and game systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="qa-item">
+          <button class="qa-btn" aria-expanded="false">
+            <span class="qa-num">03</span>
+            <span class="qa-q">Why coding and not something else?</span>
+            <span class="qa-icon">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </span>
+          </button>
+          <div class="qa-panel">
+            <p>Lwk because I got hooked. You start building one thing, then another, and suddenly you realize you can
+              turn ideas into something real. It just feels different when you actually create something from nothing.
+            </p>
+          </div>
+        </div>
+
+        <div class="qa-item">
+          <button class="qa-btn" aria-expanded="false">
+            <span class="qa-num">04</span>
+            <span class="qa-q">Open to projects or collabs?</span>
+            <span class="qa-icon">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </span>
+          </button>
+          <div class="qa-panel">
+            <p>Definitely, if we’re actually building and not just repeating “we should make this.” I’d rather start
+              something imperfect than never start at all, that’s where the fun really is.</p>
+          </div>
+        </div>
+
+        <div class="qa-item">
+          <button class="qa-btn" aria-expanded="false">
+            <span class="qa-num">05</span>
+            <span class="qa-q">What's your long-term goal?</span>
+            <span class="qa-icon">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </span>
+          </button>
+          <div class="qa-panel">
+            <p>Tbh, it’s about getting really good at what I do and building things that actually matter. Not just
+              projects, but things people remember, use, and come back to. Something that leaves a real mark, not just
+              something that exists for a moment.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CONNECT
+  ═══════════════════════════════════════════ -->
+  <section class="section connect-section" id="connect">
+    <div class="sec-rule" aria-hidden="true"></div>
+    <div class="connect-glow" aria-hidden="true"></div>
+
+    <div class="container">
+
+      <header class="sec-head sec-head-center">
+        <span class="sec-tag sr-fade">06 / Connect</span>
+        <h2 class="sec-title sr-up">Start a<br /><em>Conversation</em></h2>
+        <p class="sec-sub sr-up" style="--ri:1">A project, an idea, or just a hello, I reply to everything.</p>
+      </header>
+
+      <div class="connect-layout">
+
+        <!-- Left: meta + socials -->
+        <div class="connect-meta sr-up" style="--ri:0">
+
+          <div class="cmeta-block">
+            <span class="label-xs">EMAIL</span>
+            <a href="mailto:omar@omarazim754@gmail.com" class="cmeta-val mag" data-mag>omarazim754@gmail.com</a>
+          </div>
+
+          <div class="cmeta-block">
+            <span class="label-xs">ROBLOX</span>
+            <a href="https://www.roblox.com/users/search?keyword=OmarDeezAlmond target=" _blank" rel="noopener"
+              class="cmeta-val mag" data-mag>@OmarDeezAlmond</a>
+          </div>
+
+          <div class="socials-block">
+            <p class="label-xs" style="margin-bottom:16px">FIND ME ON</p>
+
+            <!-- Instagram — replace href with your real profile URL -->
+            <a href="https://instagram.com/omxr.dev_" target="_blank" rel="noopener" class="social-row mag" data-mag
+              aria-label="Instagram">
+              <div class="social-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                </svg>
+              </div>
+              <span>Instagram</span>
+              <svg class="social-arr" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
+              </svg>
+            </a>
+
+            <!-- Roblox -->
+            <a href="https://www.roblox.com/users/search?keyword=OmarDeezAlmond" target="_blank" rel="noopener"
+              class="social-row mag" data-mag aria-label="Roblox">
+              <div class="social-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M4.597 0L0 15.689 8.435 18 9.334 24 24 19.851 19.403 4.162 10.97 1.851 10.07 0H4.597zm2.72 3.568h2.037l.603 3.61 4.887 1.312-1.085 4.044-4.888-1.312-.9-2.703H6.93l.387-4.95z" />
+                </svg>
+              </div>
+              <span>Roblox</span>
+              <svg class="social-arr" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
+              </svg>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/omar-azim13" target="_blank" rel="noopener" class="social-row mag" data-mag
+              aria-label="GitHub">
+              <div class="social-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+              </div>
+              <span>GitHub</span>
+              <svg class="social-arr" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
+              </svg>
+            </a>
+
+            <!-- Discord -->
+            <a href="https://discord.com/users/1419650484238811136" target="_blank" rel="noopener"
+              class="social-row mag" data-mag aria-label="Discord">
+              <div class="social-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.003.028.019.056.04.074a19.9 19.9 0 0 0 5.993 3.03.077.077 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .041-.074c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418Z" />
+                </svg>
+              </div>
+              <span>Discord</span>
+              <svg class="social-arr" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Right: form -->
+        <form class="contact-form sr-up" id="contact-form" novalidate style="--ri:1">
+          <div class="form-card">
+            <div class="form-top-line"></div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="f-name">Name</label>
+                <input id="f-name" type="text" name="name" placeholder="Your name" autocomplete="off" />
+              </div>
+              <div class="form-field">
+                <label for="f-email">Email</label>
+                <input id="f-email" type="email" name="email" placeholder="you@email.com" autocomplete="off" />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="f-msg">Message</label>
+              <textarea id="f-msg" name="message" rows="5" placeholder="What's on your mind?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-solid btn-full mag" data-mag>
+              <span>Send message</span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+              </svg>
+            </button>
+            <div class="form-ok" id="form-ok">✓ &nbsp; Message received — I'll reply soon.</div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-wrap">
+      <a href="#home" class="footer-brand"><span class="logo-gem">◈</span> OmarsWorld</a>
+      <p class="footer-copy">© 2026 — Omar Azim</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#connect">Connect</a>
+      </nav>
     </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 
